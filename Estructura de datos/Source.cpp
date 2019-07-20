@@ -2,23 +2,19 @@
 #include <random> 
 #include "LinkedStack.h"	 
 
+/*
+Este ejemplo es utilizando templates
+*/
+
 using namespace std;
 using namespace System;
 
-void generateNumbers(int *numbers, int N) {
-	Random r;
-	int lim = 10;
-	for (int i = 0; i < N; i++)
-	{
-		numbers[i] = r.Next(0, lim);
-	}
-}
 
-void showNumbers(int *numbers, int N) {
+void showChars(char *name, int N) {
 	Random r;
 	for (int i = 0; i < N; i++)
 	{
-		cout<< numbers[i] << " ";
+		cout<< name[i] << " ";
 	}
 	cout << endl;
 }
@@ -27,22 +23,19 @@ void showNumbers(int *numbers, int N) {
 int main()
 {
 	// para comprobar el funcionamiento de la implementación de la pila
-	// se va a hacer el ejercicio de generar varios números
-	// mostrarlos por consola, despues invertirlos usando una pila y volverlos a mostrar
-	int N = 10;
-	int *numbers = new int[N];
+	// se va a hacer el ejercicio de invertir una cadena de texto
+	int N = 8;
+	char *name = new char[N];
+	name = "John Doe";
 
-	generateNumbers(numbers, N);
-	showNumbers(numbers, N);
+	showChars(name, N);
 
-	// usando la implementación con elementos enlazado
-	// con el estudiante se debe realizar la implementación con arreglos
-	IStack *stackDM = new LinkedStack();
+	IStack<char> *stackDM = new LinkedStack<char>();
 
 	// insertamos los elementos de arreglo en la pila
 	for (int i = 0; i < N; i++)
 	{
-		stackDM->push(numbers[i]);
+		stackDM->push(name[i]);
 	}
 	
 	// los sacamos de la pila y lo mostramos
@@ -54,7 +47,6 @@ int main()
 	}
 	cout << endl;
 	
-	delete [] numbers;
 	delete stackDM;
 
 

@@ -29,17 +29,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Node.cpp">
-      <Filter>Stacks</Filter>
-    </ClCompile>
     <ClCompile Include="ExampleWithSTLStack.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="LinkedStack.cpp">
-      <Filter>Stacks</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

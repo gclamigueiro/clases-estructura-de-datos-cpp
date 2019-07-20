@@ -1,17 +1,37 @@
 #pragma once
+template <class T>
 class Node
 {
-	int val;
-	Node *next;
+	T val;
+	Node<T> *next;
 
 public:
-	Node();
-	Node(int val);
-	~Node();
+     Node() {}
+     Node(T val)
+	{
+		this->val = val;
+		this->next = nullptr;
+	}
 
-	int getVal();
-	void seNext(Node* nexr);
-	Node* getNext();
+	~Node()
+	{
+		delete next;
+	}
+
+	 T getVal()
+	{
+		return val;
+	}
+
+	void seNext(Node<T>* next)
+	{
+		this->next = next;
+	}
+
+	Node* getNext()
+	{
+		return next;
+	}
 
 
 };

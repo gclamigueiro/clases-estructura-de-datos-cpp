@@ -128,10 +128,8 @@
     <ClInclude Include="LinkedStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Node.cpp" />
     <ClCompile Include="ExampleWithSTLStack.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="LinkedStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
