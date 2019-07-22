@@ -2,15 +2,15 @@
 
 
 ##Rama master
-En esta rama se tiene las implementaciones de los distintos TDA usando tipo de datos int. Quiere decir que si se desea crear por ejemplo una Pila de char, hay que copiar el c骴igo y cambiar el tipo de datos que pueden almacenar la pila
+En esta rama se tiene las implementaciones de los distintos TDA usando tipo de datos int. Quiere decir que si se desea crear por ejemplo una Pila de char, hay que copiar el c贸digo y cambiar el tipo de datos que pueden almacenar la pila
 
 TDA Pila
-Presenta una implementaci髇 utilizando nodos enlazados.
+Presenta una implementaci贸n utilizando nodos enlazados.
 
 TDA Cola
-Presenta una implementaci髇 utilizando arreglos y una representaci髇 circular
+Presenta una implementaci贸n utilizando arreglos y una representaci贸n circular
 
 ##Rama usingTemplateClass
-En esta rama se tiene la implementaci髇 utilizando Templates. Esto nos permite definir una sola vez nuestros TDA y utilizarlos con cualquier tipo de dato.
+En esta rama se tiene la implementaci贸n utilizando Templates. Esto nos permite definir una sola vez nuestros TDA y utilizarlos con cualquier tipo de dato.
 TDA Pila
-Presenta una implementaci髇 utilizando nodos enlazados.
+Presenta una implementaci贸n utilizando nodos enlazados.
