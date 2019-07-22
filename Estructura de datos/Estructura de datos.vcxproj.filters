@@ -16,6 +16,9 @@
     <Filter Include="Stacks">
       <UniqueIdentifier>{b1cb39e3-9930-4599-8793-a201c1e94089}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{1da0305c-e9a6-4ab1-9b16-aaac4f2adc17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
@@ -27,6 +30,12 @@
     <ClInclude Include="LinkedStack.h">
       <Filter>Stacks</Filter>
     </ClInclude>
+    <ClInclude Include="IQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Node.cpp">
@@ -35,11 +44,20 @@
     <ClCompile Include="ExampleWithSTLStack.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
     <ClCompile Include="LinkedStack.cpp">
       <Filter>Stacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleWithSTLQueue.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceStack.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceQueue.cpp">
+      <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

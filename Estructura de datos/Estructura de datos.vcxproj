@@ -123,14 +123,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="IQueue.h" />
     <ClInclude Include="IStack.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="LinkedStack.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayQueue.cpp" />
+    <ClCompile Include="ExampleWithSTLQueue.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="ExampleWithSTLStack.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="SourceQueue.cpp" />
+    <ClCompile Include="SourceStack.cpp" />
     <ClCompile Include="LinkedStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

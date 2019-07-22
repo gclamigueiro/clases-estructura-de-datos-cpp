@@ -24,7 +24,7 @@ void showNumbers(int *numbers, int N) {
 }
 
 
-int main()
+int mainStack()
 {
 	// para comprobar el funcionamiento de la implementación de la pila
 	// se va a hacer el ejercicio de generar varios números

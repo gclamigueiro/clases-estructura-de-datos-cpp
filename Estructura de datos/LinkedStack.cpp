@@ -48,7 +48,14 @@ int LinkedStack::pop()
 
 int LinkedStack::top()
 {
-	return topNode->getVal();
+	int val = -1;
+
+	if (!empty())
+	{
+		val = topNode->getVal();
+	}
+
+	return val;
 }
 
 int LinkedStack::size()
