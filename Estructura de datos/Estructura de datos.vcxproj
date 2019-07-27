@@ -135,6 +135,7 @@
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="ExampleWithSTLStack.cpp" />
     <ClCompile Include="SourceQueue.cpp" />
+    <ClCompile Include="SourceRecursion.cpp" />
     <ClCompile Include="SourceStack.cpp" />
     <ClCompile Include="LinkedStack.cpp" />
   </ItemGroup>
