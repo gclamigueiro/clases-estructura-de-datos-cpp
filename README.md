@@ -10,6 +10,9 @@ Presenta una implementación utilizando nodos enlazados.
 TDA Cola
 Presenta una implementación utilizando arreglos y una representación circular
 
+TDA Lista
+Presenta una implementación utilizando nodos enlazados.
+
 ## Rama usingTemplateClass
 En esta rama se tiene la implementación utilizando Templates. Esto nos permite definir una sola vez nuestros TDA y utilizarlos con cualquier tipo de dato.
 
