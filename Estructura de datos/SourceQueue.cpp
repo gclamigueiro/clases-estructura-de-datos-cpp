@@ -16,7 +16,7 @@ void showq(IQueue *gquiz)
 	cout << endl;
 }
 
-int main()
+int mainQueue()
 {
 	// se está utlizando la implementacion de cola con arreglos circular,
 	// en la clase hacer la implementación con nodos enlzadaos

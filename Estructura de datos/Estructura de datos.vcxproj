@@ -124,16 +124,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="IList.h" />
     <ClInclude Include="IQueue.h" />
     <ClInclude Include="IStack.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="LinkedStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
     <ClCompile Include="ExampleWithSTLQueue.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="ExampleWithSTLStack.cpp" />
+    <ClCompile Include="SourceList.cpp" />
     <ClCompile Include="SourceQueue.cpp" />
     <ClCompile Include="SourceRecursion.cpp" />
     <ClCompile Include="SourceStack.cpp" />
