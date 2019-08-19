@@ -22,11 +22,11 @@
     <Filter Include="List">
       <UniqueIdentifier>{3ab66215-777a-41c7-bc92-b379cd8bf22b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Comun">
+      <UniqueIdentifier>{a47d7fc2-661e-43f2-a621-9fa08eeb223e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h">
-      <Filter>Stacks</Filter>
-    </ClInclude>
     <ClInclude Include="IStack.h">
       <Filter>Stacks</Filter>
     </ClInclude>
@@ -45,11 +45,17 @@
     <ClInclude Include="IList.h">
       <Filter>List</Filter>
     </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>Stacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Comun</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Node.cpp">
-      <Filter>Stacks</Filter>
-    </ClCompile>
     <ClCompile Include="ExampleWithSTLStack.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
@@ -62,20 +68,32 @@
     <ClCompile Include="ArrayQueue.cpp">
       <Filter>Queue</Filter>
     </ClCompile>
-    <ClCompile Include="SourceStack.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="SourceQueue.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="SourceRecursion.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
     <ClCompile Include="LinkedList.cpp">
       <Filter>List</Filter>
     </ClCompile>
-    <ClCompile Include="SourceList.cpp">
+    <ClCompile Include="LinkedQueue.cpp">
+      <Filter>Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayStack.cpp">
+      <Filter>Stacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
       <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceList.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceQueue.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceRecursion.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceStack.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Comun</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

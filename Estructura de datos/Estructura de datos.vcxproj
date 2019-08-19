@@ -124,23 +124,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayQueue.h" />
+    <ClInclude Include="ArrayStack.h" />
     <ClInclude Include="IList.h" />
     <ClInclude Include="IQueue.h" />
     <ClInclude Include="IStack.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="LinkedQueue.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="LinkedStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
+    <ClCompile Include="ArrayStack.cpp" />
     <ClCompile Include="ExampleWithSTLQueue.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LinkedQueue.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="ExampleWithSTLStack.cpp" />
-    <ClCompile Include="SourceList.cpp" />
-    <ClCompile Include="SourceQueue.cpp" />
-    <ClCompile Include="SourceRecursion.cpp" />
-    <ClCompile Include="SourceStack.cpp" />
+    <ClCompile Include="SourceList.h" />
+    <ClCompile Include="SourceQueue.h" />
+    <ClCompile Include="SourceRecursion.h" />
+    <ClCompile Include="SourceStack.h" />
     <ClCompile Include="LinkedStack.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
