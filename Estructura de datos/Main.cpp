@@ -3,6 +3,10 @@
 #include "SourceQueue.h"
 #include "SourceRecursion.h"
 #include "SourceStack.h"
+#include "SourceLambda.h"
+#include "PC11.h"
+
+
 
 
 using namespace std;
@@ -25,6 +29,8 @@ int main()
 		cout << "2 - Ejemplo de Colas:" << endl;
 		cout << "3 - Ejemplo de Listas:" << endl;
 		cout << "4 - Ejemplo de Recursión:" << endl;
+		cout << "5 - Ejemplo de Funciones Lambda:" << endl;
+		cout << "6 - PC1-1:" << endl;
 		cout << "9 - Salir:" << endl;
 		cin >> opcion;
 
@@ -41,6 +47,13 @@ int main()
 			break;
 		case 4:
 			SourceRecursion::run();
+			break;
+		case 5:
+			SourceLambda::run();
+			break;
+		case 6:
+			PC11 pc11;
+			pc11.run();
 			break;
 		default:
 			opcion = 9;

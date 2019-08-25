@@ -25,6 +25,9 @@
     <Filter Include="Comun">
       <UniqueIdentifier>{a47d7fc2-661e-43f2-a621-9fa08eeb223e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PC1">
+      <UniqueIdentifier>{d4a2c0c4-f208-401e-a3a0-bd4806692b64}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IStack.h">
@@ -53,6 +56,12 @@
     </ClInclude>
     <ClInclude Include="Node.h">
       <Filter>Comun</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceLambda.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClInclude>
+    <ClInclude Include="PC11.h">
+      <Filter>PC1</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -132,6 +132,8 @@
     <ClInclude Include="LinkedQueue.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="LinkedStack.h" />
+    <ClInclude Include="PC11.h" />
+    <ClInclude Include="SourceLambda.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayQueue.cpp" />
